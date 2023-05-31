@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Задний фон кнопки (прозрачный) -->
+    <solid android:color="#00000000" />
+
+    <!-- Обводка кнопки -->
+    <stroke
+        android:color="#FF000000"
+        android:width="2dp"
+
+        />
+    <item android:state_pressed="false" android:drawable="@drawable/style_btn_black95"/>
+    <item android:state_pressed="true" android:drawable="@drawable/style_btn_blue"/>
+
+</shape>
